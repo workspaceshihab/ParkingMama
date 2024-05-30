@@ -55,7 +55,7 @@ echo "<h3>data stored in a database successfully."
 
     . " to view the updated data or click on home for add more vehicle</h3></br><a style='text-decoration: none;' href='../index.php'>Home</a>"; 
 } else{
-    echo "ERROR: Hush! Sorry $sql. "
+    echo "ERROR: Data couldn't store. $sql. "
         . mysqli_error($conn);
 }
 }
